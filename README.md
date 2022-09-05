@@ -74,15 +74,16 @@
 
 ![메인 1](https://user-images.githubusercontent.com/109265165/188420847-a4478109-ff53-4cd8-9cd6-ed417c6d87a6.png)
 
+
 - 인기 영상의 경우, 멀티 슬라이드 형식으로 버튼을 클릭하여 슬라이드를 넘기는 형식으로 구성
 
-![메인 2](https://user-images.githubuser
+![메인 2](https://user-images.githubusercontent.com/109265165/188421386-b5042f08-f20e-4254-888d-767c6b3bab27.png)
+
 
 
 - 부위별 영상의 경우, 원하는 부위 버튼을 클릭하면, 카드 형식으로 만들어진 영상들의 리스트가 화면에 나타남
 
 ![메인 3](https://user-images.githubusercontent.com/109265165/188420890-7d3ab8af-0f2c-4f72-b551-793690df4053.png)
-content.com/109265165/188420856-2
 
 
 ---
@@ -90,14 +91,20 @@ content.com/109265165/188420856-2
 ### ❗로그인 화면
 
 ---
+- 로그인 화면
+
+![로그인 페이지](https://user-images.githubusercontent.com/109265165/188421438-7c4bdb6e-9265-45a0-939c-4956fcf8c810.png)
+
 
 - 빈칸으로 두고 로그인을 할 시 정보를 작성하라는 경고창을 띄움
 
-![빈칸으로 로그인 했을 때 경고창.png](./img/빈칸으로_로그인_했을_때_경고창.png)
+![빈칸으로 로그인 했을 때 경고창](https://user-images.githubusercontent.com/109265165/188421522-d37c5e55-7b6d-4a08-9d7a-0b6b695fd0e3.png)
+
 
 - 없는 정보로 로그인을 시도한다면 아이디가 없거나 비밀번호가 틀렸다고 경고창을 띄움
 
-![가입되지 않았거나 비밀번호가 틀렸을 때 경고창.png](./img/가입되지_않았거나_비밀번호가_틀렸을_때_경고창.png)
+![가입되지 않았거나 비밀번호가 틀렸을 때 경고창](https://user-images.githubusercontent.com/109265165/188421403-1583f629-fd7d-4586-a651-2eb71478984a.png)
+
 
 ---
 
@@ -107,15 +114,15 @@ content.com/109265165/188420856-2
 
 - 회원가입 창과 로컬스토리지
 
-![회원가입 창.png](./img/회원가입_창.png)
+![회원가입 창](https://user-images.githubusercontent.com/109265165/188421608-f54c1c7b-82a2-4be9-9a9f-3401493dbcd5.png)
 
-![초반 로그인 로컬스토리지 상태.png](./img/초반_로그인_로컬스토리지_상태.png)
+![초반 로그인 로컬스토리지 상태](https://user-images.githubusercontent.com/109265165/188421562-2045967e-398f-4822-ba90-084640e927a4.png)
 
 - 회원가입 성공시 정보가 로컬스토리지에 저장이 되고 로그인 화면으로 전환
 
-![회원가입 성공 창.png](./img/회원가입_성공_창.png)
+![회원가입 성공 창](https://user-images.githubusercontent.com/109265165/188421576-abc0d7b9-0c21-4b26-b044-6b6d1f242faf.png)
 
-![회원가입 후 로컬 스토리지 창.png](./img/회원가입_후_로컬_스토리지_창.png)
+![회원가입 후 로컬 스토리지 창](https://user-images.githubusercontent.com/109265165/188421618-bc150e2d-4c1b-407c-9d97-246ebdef6016.png)
 
 ---
 
@@ -125,7 +132,7 @@ content.com/109265165/188420856-2
 
 - 회원가입 후 로그인 성공시 환영한다는 창과 함께 메인 화면으로 넘어감
 
-![로그인 완료 후 창.png](./img/로그인_완료_후_창.png)
+![로그인 완료 후 창](https://user-images.githubusercontent.com/109265165/188421424-d128168c-929f-4039-a9a2-122af0abd148.png)
 
 ---
 
@@ -135,11 +142,11 @@ content.com/109265165/188420856-2
 
 - 해당 영상을 재생할 수 있으며, 리뷰를 볼수 있음
 
-![운동영상리뷰화면.png](./img/운동영상리뷰화면.png)
+![운동영상리뷰화면](https://user-images.githubusercontent.com/109265165/188421536-f584f50b-371b-441a-ba1e-62d5676b7dce.png)
 
 - 해당 영상에 대한 찜을 할 수있음
 
-![찜 구현.png](./img/찜_구현.png)
+![찜 구현](https://user-images.githubusercontent.com/109265165/188421551-df320b2f-dafb-422e-abe4-ebe7dff4f3df.png)
 
 ---
 
@@ -149,11 +156,11 @@ content.com/109265165/188420856-2
 
 - 리뷰를 작성하고 등록하면 영상 밑에 추가가 되며, 로컬스토리지에도 저장이 됨
 
-![리뷰작성창.png](./img/리뷰작성창.png)
+![리뷰작성창](https://user-images.githubusercontent.com/109265165/188421500-26564855-b20c-4db0-9bbc-4dbb337d80d7.png)
 
-![댓글 작성 완료 창1.png](./img/댓글_작성_완료_창1.png)
+![댓글 작성 완료 창1](https://user-images.githubusercontent.com/109265165/188421414-05b25175-abcd-44d4-be53-83c9432953bb.png)
 
-![리뷰관리 로컬스토리지.png](./img/리뷰관리_로컬스토리지.png)
+![리뷰관리 로컬스토리지](https://user-images.githubusercontent.com/109265165/188421473-e492eff0-b5ca-4097-a554-e8000c5c26c0.png)
 
 ---
 
@@ -161,9 +168,9 @@ content.com/109265165/188420856-2
 
 ---
 
-![리뷰상세 창.png](./img/리뷰상세_창.png)
+![리뷰상세 창](https://user-images.githubusercontent.com/109265165/188421485-5126505c-5546-4a99-ae63-08b630286746.png)
 
-![리뷰 수정 창.png](./img/리뷰_수정_창.png)
+![리뷰 수정 창](https://user-images.githubusercontent.com/109265165/188421451-22e0cf4b-c742-42ad-a54d-a79779e87205.png)
 
 ---
 
