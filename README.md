@@ -72,15 +72,17 @@
 
 - 헤더와 히어로 이미지, 본문(검색창, 인기 영상, 부위별 영상) 그리고 푸터로 구성
 
-![메인 1.png](./img/메인_1.png)
+![메인 1](https://user-images.githubusercontent.com/109265165/188420847-a4478109-ff53-4cd8-9cd6-ed417c6d87a6.png)
 
 - 인기 영상의 경우, 멀티 슬라이드 형식으로 버튼을 클릭하여 슬라이드를 넘기는 형식으로 구성
 
-![메인 2.png](./img/메인_2.png)
+![메인 2](https://user-images.githubuser
+
 
 - 부위별 영상의 경우, 원하는 부위 버튼을 클릭하면, 카드 형식으로 만들어진 영상들의 리스트가 화면에 나타남
 
-![메인 3.jpg](./img/메인_3.png)
+![메인 3](https://user-images.githubusercontent.com/109265165/188420890-7d3ab8af-0f2c-4f72-b551-793690df4053.png)
+content.com/109265165/188420856-2
 
 
 ---
