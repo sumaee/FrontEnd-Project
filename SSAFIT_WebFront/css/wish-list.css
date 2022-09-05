@@ -1,0 +1,7 @@
+.wish-button i{
+    display: none;
+}
+
+.wish-button i.active{
+    display: inline;
+}

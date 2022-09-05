@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSAFIT!</title>
+
+  <!--아이콘-->
+  <!--fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!--외부 css-->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!--css style-->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/regist.css">
+</head>
+
+<body>
+  <!--Header-->
+  <header id="header" class="fixed-top d-flex ">
+    <div class="container d-flex align-items-center">
+      <div class="logo me-auto">
+        <h1><a href="main.html">SSAFIT</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="main.html">Home</a></li>
+          <li><a class="nav-link" href="#">헬스장찾기</a></li>
+          <li><a href="#"><i class="bi bi-person-plus-fill"></i></a>
+          </li>
+          <li><a href="#"><i class="bi bi-box-arrow-right"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <main class="container">
+    <div class="regist-page">
+      <div class="form">
+        <h1>Regist</h1>
+        <form class="regist-form d-flex flex-column align-items-center">
+          <input type="text" id="Id" placeholder="Id" />
+          <input type="text" id="name" placeholder="name" />
+          <input type="email" id="email" placeholder="email" />
+          <input type="password" id="password" placeholder="password" />
+          <input type="password" id="checkpassword" placeholder="checkpassword" />
+          <button type="button" id="regist">가입</button>
+          
+          <button type="button" onClick="location.href='login.html'">취소</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="d-flex align-items-center ">
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SSAFY</span></strong>. All Rights Reserved
+      </div>
+    </div>
+    <ul class="footer-list ms-auto">
+      <li><a href="#">개인정보 처리방침</a></li>
+      <li><a href="#">이용 약관</a></li>
+      <li><a href="#">오시는 길</a></li>
+    </ul>
+  </footer><!-- End Footer -->
+
+  <script src="/js/regist.js"></script>
+
+</body>
+</html>

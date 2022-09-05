@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSAFIT!</title>
+
+    <!--아이콘-->
+    <!--fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!--외부 css-->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!--css style-->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/review-detail.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header id="header" class="fixed-top d-flex ">
+        <div class="container d-flex align-items-center">
+            <div class="logo me-auto">
+                <h1><a href="main.html">SSAFIT</a></h1>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link active" href="main.html">Home</a></li>
+                    <li><a class="nav-link" href="#contact">헬스장찾기</a></li>
+                    <li><a href="#"><i class="bi bi-person-plus-fill"></i></a>
+                    </li>
+                    <li><a href="#"><i class="bi bi-box-arrow-right"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header><!-- End Header -->
+
+
+    <main class="d-flex flex-column">
+        <div class="section-title">
+            <h2>운동영상 리뷰</h2>
+        </div>
+        <div style="width:80%">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="btn btn-primary" type="button" onClick="history.go(-1)">목록으로</button>
+                    <div clas="me-auto">
+                        <button class="btn btn-primary" type="button"
+                            onClick="location.href='review-update.html'">수정</button>
+                        <button class="btn btn-danger" type="submit" style="margin-left:10px;">삭제</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="review-detail" class="d-flex flex-column justify-content-center align-content-center">
+            <div class="review-detail-info">
+                <h2>유용합니다~</h2>
+                작성자: 김소정 <br>
+                조회수: 2<br>
+                작성일: 2022-09-02 16:13
+            </div>
+            <hr>
+            <div class="review-detail-content">
+                도움이 많이 됐습니다!
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ======= Footer ======= -->
+
+    <footer id="footer" class="d-flex align-items-center ">
+        <div class="me-md-auto text-center text-md-start">
+            <div class="copyright">
+                &copy; Copyright <strong><span>SSAFY</span></strong>. All Rights Reserved
+            </div>
+        </div>
+        <ul class="footer-list ms-auto">
+            <li><a href="#">개인정보 처리방침</a></li>
+            <li><a href="#">이용 약관</a></li>
+            <li><a href="#">오시는 길</a></li>
+        </ul>
+    </footer><!-- End Footer -->
+
+
+</body>
+
+</html>

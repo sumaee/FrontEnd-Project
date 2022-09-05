@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSAFIT!</title>
+
+  <!--아이콘-->
+  <!--fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!--외부 css-->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!--css style-->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Header-->
+  <header id="header" class="fixed-top d-flex ">
+    <div class="container d-flex align-items-center">
+      <div class="logo me-auto">
+        <h1><a href="main.html">SSAFIT</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#hero">Home</a></li>
+          <li><a class="nav-link" href="#contact">헬스장찾기</a></li>
+          <li><a href="login.html"><i class="bi bi-person-plus-fill"></i></a>
+          </li>
+          <li><a href="#"><i class="bi bi-box-arrow-right"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Hero -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Welcome to <span>SSAFIT</span></h1>
+      <h2>최고의 운동 영상을 제공해드립니다.</h2>
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- Main -->
+  <main class="d-flex flex-column mb-3">
+    <!-- 검색창 -->
+    <section id="search">
+      <div class="section-title">
+        <h2>영상 검색하기</h2>
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- 최근 가장 많이 본 영상 -->
+    <section id="popular-video">
+      <div class="container d-flex flex-column align-items-center">
+        <div class="section-title">
+          <h2>최근 가장 많이 본 영상</h2>
+        </div>
+        <div>
+          <button type="button" class="btn btn-outline-primary" onClick="location.href='review.html'">최근 영상 리뷰 보러가기</button>
+        </div>
+        <div class="multie-slide">
+          <div class="multie-slide-btn prev">
+            <i class="bi bi-caret-left"></i>
+          </div>
+          <div class="multie-slide-wrapper d-flex align-content-center">
+            <ul class="multie-slide-area d-flex">
+            </ul>
+          </div>
+          <div class="multie-slide-btn next">
+            <i class="bi bi-caret-right"></i>
+          </div>
+        </div>
+      </div>
+    </section><!-- End 최근 가장 많이 본 영상 -->
+
+    <!-- 부위별 운동 영상 -->
+    <section id="part-video" class="part-video">
+      <div class="container d-flex flex-column align-items-center">
+        <div class="section-title">
+          <h2>운동 부위 선택</h2>
+          <p>원하는 부위에 맞게 운동 해보세요!</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="part-video-filters">
+              <li class="filter-total filter-active">전신</li>
+              <li class="filter-upper">상체</li>
+              <li class="filter-lower">하체</li>
+              <li class="filter-belly">복부</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row part-video-container d-flex flex-wrap">
+          
+        </div>
+
+      </div>
+
+
+      </div>
+    </section> <!-- End 부위별 운동 영상 -->
+
+
+
+
+
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="d-flex align-items-center ">
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SSAFY</span></strong>. All Rights Reserved
+      </div>
+    </div>
+    <ul class="footer-list ms-auto">
+      <li><a href="#">개인정보 처리방침</a></li>
+      <li><a href="#">이용 약관</a></li>
+      <li><a href="#">오시는 길</a></li>
+    </ul>
+  </footer><!-- End Footer -->
+
+
+  <!-- ======= Script ======= -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

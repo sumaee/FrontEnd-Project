@@ -1,0 +1,371 @@
+/* === General === */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+
+.logo h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #0d6efd;
+    font-style: italic;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.bi::before{
+    vertical-align: 0;
+}
+
+/* === Header === */
+#header {
+    height: 70px;
+    z-index: 997;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* === Navigation === */
+.navbar {
+    margin-right: 20px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a,
+.navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4f5a62;
+    white-space: nowrap;
+}
+
+.nav-link.active{
+    color:#0d6efd;
+}
+
+.navbar a i {
+    font-size: 20px;
+    line-height: 0;
+    margin-left: 5px;
+    color: #0d6efd;
+}
+
+/* === Hero === */
+#hero {
+    transition: all ease-in-out 0.3s;
+    width: 100%;
+    height: 60vh;
+    background: url("/img/hero/adult-gca1f6c1cd_1920.jpg") center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 70px;
+    /* padding: 0; */
+}
+
+#hero:before {
+    content: "";
+    background: rgba(56, 64, 70, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container {
+    z-index: 2;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#hero h1 span {
+    border-bottom: 4px solid #0d6efd;
+}
+
+#hero h2 {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+@media (max-width: 992px) {
+    #hero {
+        height: calc(100vh - 70px);
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+/* === Main/Section General === */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    padding: 60px 0;
+    /* background-color: #f7fbfe; */
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #3498db;
+    bottom: 0;
+    left: calc(50% - 30px);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+/* === Search === */
+#search{
+    width: 50%;
+}
+
+/* === 최근 많이 본 영상 === */
+.multie-slide {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: solid rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.multie-slide-btn {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multie-slide-btn i {
+    font-size: 30px;
+    color: darkgray;
+}
+
+.multie-slide-wrapper {
+    position: relative;
+    width: 960px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.multie-slide-area {
+    text-align: center;
+    padding-left: 0px;
+    position: absolute;
+    left: 0;
+    margin: 0px;
+}
+
+
+.multie-slide-area li:not(:last-child) {
+    justify-content: flex-start;
+    margin-right: 30px;
+}
+
+.multie-slide-areali {
+    width: 300px;
+}
+
+/* .slides {
+    position: absolute;
+    left: 0;
+
+    transition: left 0.5s ease-out;
+} */
+
+
+/* === Card === */
+.card-img-top {
+    margin-top: -9.5%;
+}
+
+.card-img-crop {
+    max-height: 168px;
+    overflow: hidden;
+}
+
+.card-body {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 280px;
+    width: 300px;
+}
+
+.card-title{
+    font-size: 1rem;
+    margin:auto;
+}
+
+.card-channel{
+    font-size: 1rem;
+    margin:auto;
+}
+
+.card-part{
+    font-size: 1rem;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 50px;
+    margin:auto;
+    text-align: center;
+    line-height: 1.5rem;
+    color: white;
+}
+
+.card-part.part-total{
+    background-color: rgb(211, 77, 77);
+}
+
+.card-part.part-upper{
+    background-color: rgb(42, 177, 51);
+}
+
+.card-part.part-bottom{
+    background-color: rgb(67, 126, 204);
+}
+
+.card-part.part-belly{
+    background-color: rgb(168, 91, 201);
+}
+
+/* === 부위별 운동 영상 === */
+
+.part-video #part-video-filters {
+    padding: 0;
+    margin: 0 0 35px 0;
+    text-align: center;
+}
+
+.part-video #part-video-filters li {
+    cursor: pointer;
+    margin: 0 15px 15px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #444444;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #fff;
+    margin-bottom: 5px;
+}
+
+.part-video #part-video-filters li:hover,
+.part-video #part-video-filters li.filter-active {
+    background: #3498db;
+    color: #fff;
+}
+
+.part-video #part-video-filters li:last-child {
+    margin-right: 0;
+}
+
+.part-video-container .card{
+    margin: 20px;
+}
+
+/* === Footer === */
+#footer {
+    height: 50px;
+    color: #444444;
+    font-size: 14px;
+    background: #eeeeee;
+    padding: 0px 20px;
+    position: relative;
+    transform: translatY(-100%);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.footer-list li {
+    margin-left: 10px;
+}
+
+.footer-list li a {
+    color: #444444;
+}
